@@ -87,7 +87,7 @@
 	desc = "This robe commands authority."
 	icon_state = "judge"
 	item_state = "judge"
-	clothing_flags = ONESIZEFITSALL
+	flags = FPRINT  | ONESIZEFITSALL
 	allowed = list(/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/spacecash)
 
 
@@ -341,7 +341,7 @@
 
 /obj/item/clothing/suit/soldiercoat
 	name = "Soldier's Coat"
-	desc = "Und das hei√üt: Erika."
+	desc = "Und das heiﬂt: Erika."
 	icon_state = "soldiersuit"
 	body_parts_covered = ARMS|LEGS|FULL_TORSO|IGNORE_INV
 

@@ -258,7 +258,7 @@
 /obj/item/weapon/plantspray
 	icon = 'icons/obj/hydroponics.dmi'
 	item_state = "spray"
-	flags = FPRINT | NO_ATTACK_MSG
+	flags = FPRINT | NOBLUDGEON
 	slot_flags = SLOT_BELT
 	throwforce = 4
 	w_class = W_CLASS_SMALL
@@ -310,7 +310,7 @@
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "hoe"
 	item_state = "hoe"
-	flags = FPRINT  | NO_ATTACK_MSG
+	flags = FPRINT  | NOBLUDGEON
 	siemens_coefficient = 1
 	force = 5.0
 	throwforce = 7.0

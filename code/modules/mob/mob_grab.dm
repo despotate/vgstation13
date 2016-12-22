@@ -3,7 +3,7 @@
 
 /obj/item/weapon/grab
 	name = "grab"
-	flags = NO_ATTACK_MSG
+	flags = NOBLUDGEON
 	var/obj/screen/grab/hud = null
 	var/mob/affecting = null
 	var/mob/assailant = null
