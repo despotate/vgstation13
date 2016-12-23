@@ -304,7 +304,7 @@
 
 /obj/structure/reagent_dispensers/virusfood/New()
 	. = ..()
-	reagents.add_reagent(VIRUSFOOD, 1000)
+	reagents.add_reagent(VIRUSFOOD, 150)
 
 /obj/structure/reagent_dispensers/corn_oil_tank
 	name = "oil vat"
