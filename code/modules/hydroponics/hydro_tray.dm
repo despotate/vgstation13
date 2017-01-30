@@ -216,7 +216,7 @@
 				nutrilevel = 1
 
 			//Snowflakey, maybe move this to the seed datum
-			health = seed.endurance / rand(5, 10)
+			health = seed.endurance * min((seed.age / seed.maturation)
 
 			lastcycle = world.time
 

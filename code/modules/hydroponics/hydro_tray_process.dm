@@ -366,7 +366,10 @@
 /obj/machinery/portable_atmospherics/hydroponics/proc/check_level_sanity()
 	//Make sure various values are sane.
 	if(seed)
-		health = Clamp(health, 0, seed.endurance)
+		if (seed.maturation <= 0) // just in case 
+			health = Clamp(health, 0, seed.endurance)
+		else
+			health = Clamp(health, 0, seed.endurance * min((seed.age / seed.maturation), 1))
 	else
 		health = 0
 		dead = 0
