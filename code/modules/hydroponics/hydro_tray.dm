@@ -216,7 +216,7 @@
 				nutrilevel = 1
 
 			//Snowflakey, maybe move this to the seed datum
-			health = (istype(S, /obj/item/seeds/cutting) ? round(seed.endurance/rand(2,5)) : seed.endurance)
+			health = seed.endurance / rand(5, 10)
 
 			lastcycle = world.time
 
